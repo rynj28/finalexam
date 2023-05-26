@@ -22,3 +22,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Renzo Gerald C. Buscar
+Ryan James Fajardo
+Jayden Sison
+Matt Despuig
+
