@@ -4,7 +4,6 @@ class Customer < ApplicationRecord
   has_many :products, : :suppliers
   has_many :suppliers
   has_one_attached :avatar
-
   validate :acceptable_image
 
    def acceptable_image
