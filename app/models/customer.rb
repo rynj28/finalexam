@@ -17,7 +17,7 @@ class Customer < ApplicationRecord
      unless acceptable_types.include?(avatar.content_type)
      end
    end
-
+  
   def full_name
     "#{first_name} #{last_name}"
   end
