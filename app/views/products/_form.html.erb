@@ -28,7 +28,7 @@
 
   <div>
     <%= form.label :supplier_name, style: "display: block" %>
-    <%= collection_select(:order, :supplier_id, Supplier.all, :id, :name) %>
+    <%= collection_select(:product, :supplier_id, Supplier.all, :id, :name) %>
   </div>
 
   <div>
